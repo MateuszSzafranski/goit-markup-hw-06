@@ -136,6 +136,35 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
+    padding: 40px 20px;
+}
+
+.label-text {
+    width: 24px;
+    height: 14px;
+    left: 576px;
+    top: 296px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: 0.01em;
+    color: #757575;
+    padding: 40px;
+}
+
+.form-label {
+    box-sizing: border-box;
+    width: 448px;
+    height: 40px;
+    left: 576px;
+    top: 314px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    padding: 11px;
 }
 
 .container-section2 {

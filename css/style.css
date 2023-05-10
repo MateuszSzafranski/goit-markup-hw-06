@@ -124,6 +124,20 @@ body {
     transform: translate(-50%, -50%) scale(0);
 }
 
+.heading-modal {
+    width: 448px;
+    height: 23px;
+    left: 576px;
+    top: 261px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.15;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
 .container-section2 {
     align-items: center;
     list-style: none;

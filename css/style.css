@@ -181,6 +181,16 @@ body {
     border-radius: 4px;
 }
 
+.form-textarea {
+    box-sizing: border-box;
+    width: 448px;
+    height: 120px;
+    left: 576px;
+    top: 518px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+}
+
 .checkbox-input {
     left: 36.94%;
     right: 62.06%;

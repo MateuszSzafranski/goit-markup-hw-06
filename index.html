@@ -65,7 +65,7 @@
                                     <svg class="form-label-icon" width="12px" height="12px">
                                         <use href="./images/name.svg#icon-name"></use>
                                     </svg>
-                                    <input type="text" name="Imie użytkownika" placeholder=""/>
+                                    <input type="text" class="form-input" name="Imie użytkownika" placeholder="" />
                                 </label>
 
                                 <span class="label-text">Telefon</span>
@@ -73,7 +73,7 @@
                                     <svg class="form-label-icon" width="13px" height="13px">
                                         <use href="./images/telephone.svg#icon-phone-black-18dp-1"></use>
                                     </svg>
-                                    <input type="telephone" name="Telefon kontaktowy" placeholder=""/>
+                                    <input type="telephone" class="form-input" name="Telefon kontaktowy" placeholder=""/>
                                 </label>
 
                                 <span class="label-text">Email</span>
@@ -81,7 +81,7 @@
                                     <svg class="form-label-icon" width="15px" height="12px">
                                         <use href="./images/email.svg#icon-email-black-18dp-1"></use>
                                     </svg>
-                                    <input type="email" name="Adres email" placeholder=""/>
+                                    <input type="email" class="form-input" name="Adres email" placeholder=""/>
                                 </label>
 
                                 <span class="label-text">Komentarz</span>
@@ -91,10 +91,14 @@
                             </div>
                             <div>
                                 <label>
-                                    <input type="checkbox" class="" name="Zgoda"/><span>Oświadczam iż akceptuje <a href="#">Regulamin</a> i <a href="#">Politykę Prywatności</a></span>
+                                    <input type="checkbox" class="checkbox-input" name="Zgoda"/>
+                                    <span class="checkbox-text">Oświadczam iż akceptuje 
+                                        <a href="#">Regulamin</a> i 
+                                        <a href="#">Politykę Prywatności</a>
+                                    </span>
                                 </label>
                             </div>
-                            <button>Wyślij</button>
+                            <button class="form-button form-button-text" type="submit">Wyślij</button>
                         </form>
                     </div>
                 </div>

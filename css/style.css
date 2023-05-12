@@ -848,6 +848,16 @@ body {
     padding: 13px 8px 13px 24px;
 }
 
+.text-news {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
 .input-email {
     box-sizing: border-box;
     width: 358px;
@@ -857,4 +867,41 @@ body {
     border: 1px solid rgba(255, 255, 255, 0.3);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
+    background: #2f303a;
+    margin-top: 20px;
+    padding: 15px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
+    color: rgba(255, 255, 255, 0.6);
 }
+
+.button-send {
+    width: 200px;
+    height: 50px;
+    left: 1185px;
+    top: 2787px;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    display: flex;
+        align-items: center;
+}
+
+.button-send-text {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+}
+
+
+
+
+

@@ -216,6 +216,10 @@ body {
     border-radius: 4px;
 }
 
+.checkbox-label {
+    padding-left: 54px;
+}
+
 .checkbox-input {
     left: 36.94%;
     right: 62.06%;

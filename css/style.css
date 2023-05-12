@@ -141,6 +141,10 @@ body {
     padding-left: 46px;
 }
 
+.label-container {
+    position: relative;
+}
+
 .label-text {
     width: 24px;
     height: 14px;
@@ -163,12 +167,12 @@ body {
     height: 40px;
     left: 576px;
     top: 314px;
-    border: none;
     border-radius: 4px;
     display: flex;
     align-items: center;
     padding-bottom: 4px;
     padding-left: 40px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
 }
 
 .form-label-text {
@@ -202,7 +206,7 @@ body {
     height: 40px;
     left: 576px;
     top: 314px;
-    border: 1px solid rgba(33, 33, 33, 0.2);
+    border: none;
     border-radius: 4px;
 }
 

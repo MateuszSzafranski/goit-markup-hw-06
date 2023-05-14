@@ -172,7 +172,7 @@ body {
     align-items: center;
     padding-bottom: 4px;
     padding-left: 40px;
-    border: 1px solid rgba(33, 33, 33, 0.2);
+    border: none;
 }
 
 .label-head-text {
@@ -181,7 +181,7 @@ body {
     font-size: 12px;
     line-height: 1.16;
     letter-spacing: 0.01em;
-    color: var(--brand-color-text-grey);
+    color: var(--brand-color-text-grey);   
 }
 
 .form-label-text {
@@ -215,7 +215,7 @@ body {
     height: 40px;
     left: 576px;
     top: 314px;
-    border: none;
+    border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
 }
 
@@ -894,7 +894,7 @@ body {
 }
 
 .email-footer {
-    padding: 13px 8px 13px 24px;
+    
 }
 
 .text-news {
@@ -904,20 +904,19 @@ body {
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: var(--brand-color-white);
+    margin-top: 72px;
 }
 
 .input-email {
     box-sizing: border-box;
     width: 358px;
-    height: 50px;
-    left: 815px;
-    top: 2787px;
     border: 1px solid rgba(255, 255, 255, 0.3);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
     background: #2f303a;
     margin-top: 20px;
+    margin-right: 12px;
     padding: 15px;
     font-style: normal;
     font-weight: 400;
@@ -926,28 +925,23 @@ body {
     color: rgba(255, 255, 255, 0.6);
 }
 
-.button-send {
-    width: 200px;
-    height: 50px;
-    left: 1185px;
-    top: 2787px;
-    background: var(--brand-color-blue);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+.submit-send {
+    background-color: var(--brand-color-blue);
+    border: 1px solid var(--brand-color-blue);
     border-radius: 4px;
+    color: var(--brand-color-white);
+    font-size: 16;
+    line-height: 1.6;
+    font-weight: 700;
+    text-align: center;
+    padding: 10px 24px 10px 42px;
+    letter-spacing: 0.06rem;
+    position: relative;
+    top: 0px;  
+    width: 200px;   
+    height: 50px;
     display: flex;
     align-items: center;
-}
-
-.button-send-text {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.87;
-    display: inline-block;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.06em;
-    color: var(--brand-color-white);
     text-align: center;
 }
 

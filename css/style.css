@@ -135,7 +135,7 @@ body {
     line-height: 1.15;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--brand-color-black);
     padding-top: 40px;
     padding-bottom: 30px;
     padding-left: 46px;
@@ -156,7 +156,7 @@ body {
     font-size: 12px;
     line-height: 1.16;
     letter-spacing: 0.01em;
-    color: #757575;
+    color: var(--brand-color-text-grey);
     padding-left: 40px;
     padding-bottom: 10px;
 }
@@ -173,6 +173,15 @@ body {
     padding-bottom: 4px;
     padding-left: 40px;
     border: 1px solid rgba(33, 33, 33, 0.2);
+}
+
+.label-head-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: 0.01em;
+    color: var(--brand-color-text-grey);
 }
 
 .form-label-text {
@@ -210,6 +219,13 @@ body {
     border-radius: 4px;
 }
 
+.form-label-icon {
+    width: 18px;
+    height: 18px;
+    left: 588px;
+    top: 325px;
+}
+
 .form-textarea {
     box-sizing: border-box;
     width: 448px;
@@ -229,7 +245,7 @@ body {
     right: 62.06%;
     top: 64.68%;
     bottom: 33.85%;
-    background: #212121;
+    background: var(--brand-color-black);
 }
 
 .checkbox-text {
@@ -238,7 +254,7 @@ body {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--brand-color-text-grey);
 }
 
 .form-button {
@@ -246,7 +262,7 @@ body {
     height: 50px;
     left: 700px;
     top: 712px;
-    background: #2196F3;
+    background: var(--brand-color-blue);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     border: none;
@@ -262,7 +278,7 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
     justify-content: center;
-    color: #FFFFFF;
+    color: var(--brand-color-white);
 }
 
 .container-section2 {
@@ -915,11 +931,11 @@ body {
     height: 50px;
     left: 1185px;
     top: 2787px;
-    background: #2196F3;
+    background: var(--brand-color-blue);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     display: flex;
-        align-items: center;
+    align-items: center;
 }
 
 .button-send-text {
@@ -931,7 +947,11 @@ body {
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-    color: #FFFFFF;
+    color: var(--brand-color-white);
+}
+
+.icon-send {
+    fill: var(--brand-color-white);        
 }
 
 

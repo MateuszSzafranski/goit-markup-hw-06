@@ -124,6 +124,10 @@ body {
     transform: translate(-50%, -50%) scale(0);
 }
 
+.modal-form {
+    padding: 40px;
+}
+
 .heading-modal {
     width: 448px;
     height: 23px;
@@ -135,10 +139,7 @@ body {
     line-height: 1.15;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--brand-color-black);
-    padding-top: 40px;
-    padding-bottom: 30px;
-    padding-left: 46px;
+    color: var(--brand-color-black);  
 }
 
 .label-container {
@@ -165,13 +166,9 @@ body {
     box-sizing: border-box;
     width: 448px;
     height: 40px;
-    left: 576px;
-    top: 314px;
     border-radius: 4px;
-    display: flex;
     align-items: center;
     padding-bottom: 4px;
-    padding-left: 40px;
     border: none;
 }
 
@@ -181,7 +178,8 @@ body {
     font-size: 12px;
     line-height: 1.16;
     letter-spacing: 0.01em;
-    color: var(--brand-color-text-grey);   
+    color: var(--brand-color-text-grey); 
+    margin-bottom: 4px;  
 }
 
 .form-label-text {
@@ -192,21 +190,17 @@ body {
     top: 518px;
     border: none;
     border-radius: 4px;
-    display: flex;
     align-items: center;
-    padding-left: 40px;
 }
 
 .textarea {
     box-sizing: border-box;
     width: 448px;
     height: 120px;
-    left: 576px;
-    top: 518px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     display: flex;
-    align-items: center;      
+    align-items: center;
 }
 
 .form-input {
@@ -218,35 +212,36 @@ body {
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     display: inline-flex;
+    margin-bottom: 10px;
+    padding-left: 42px;
 }
 
 .form-label-icon {
+    position: absolute;
     width: 18px;
     height: 18px;
-    left: 588px;
-    top: 325px;
+    left: 10px;
+    top: 30px;
 }
 
 .form-textarea {
     box-sizing: border-box;
     width: 448px;
     height: 120px;
-    left: 576px;
-    top: 518px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
 }
 
 .checkbox-label {
-    padding-left: 54px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
 }
 
 .checkbox-input {
-    left: 36.94%;
-    right: 62.06%;
-    top: 64.68%;
-    bottom: 33.85%;
-    background: var(--brand-color-black);
+    margin-right: 7px;
+    background: var(--brand-color-black); 
 }
 
 .checkbox-text {
@@ -261,12 +256,15 @@ body {
 .form-button {
     width: 200px;
     height: 50px;
-    left: 700px;
-    top: 712px;
     background: var(--brand-color-blue);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 124px;
 }
 
 .form-button-text {
@@ -274,11 +272,8 @@ body {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
-    display: flex;
-    align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-    justify-content: center;
     color: var(--brand-color-white);
 }
 
@@ -894,8 +889,8 @@ body {
     padding-top: 20px;
 }
 
-.email-footer {
-    
+.form-email {
+    display: flex;
 }
 
 .text-news {
@@ -906,7 +901,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--brand-color-white);
-    margin-top: 72px;
+    margin-bottom: 20px;
 }
 
 .input-email {
@@ -916,7 +911,6 @@ body {
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
     background: #2f303a;
-    margin-top: 20px;
     margin-right: 12px;
     padding: 15px;
     font-style: normal;
@@ -944,6 +938,7 @@ body {
     display: flex;
     align-items: center;
     text-align: center;
+    cursor: pointer;
 }
 
 .icon-send {

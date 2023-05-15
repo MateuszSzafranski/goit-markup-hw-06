@@ -162,6 +162,11 @@ body {
     padding-bottom: 10px;
 }
 
+input {
+    border: none;
+    outline: none;
+}
+
 .form-label {
     box-sizing: border-box;
     width: 448px;

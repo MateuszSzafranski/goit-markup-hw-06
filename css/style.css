@@ -170,6 +170,15 @@ body {
     align-items: center;
     padding-bottom: 4px;
     border: none;
+    transition-property: color, background-color, box-shadow;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.form-label:is(:hover, :focus-within) {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border: 1px solid #2196f3;
+    fill: #2196f3;
 }
 
 .label-head-text {
@@ -201,6 +210,7 @@ body {
     border-radius: 4px;
     display: flex;
     align-items: center;
+    padding: 12px 16px;
 }
 
 .form-input {
@@ -253,6 +263,10 @@ body {
     color: var(--brand-color-text-grey);
 }
 
+.link-checkbox {
+    color: var(--brand-color-blue);
+}
+
 .form-button {
     width: 200px;
     height: 50px;
@@ -265,6 +279,7 @@ body {
     justify-content: center;
     margin-top: 30px;
     margin-left: 124px;
+    cursor: pointer;
 }
 
 .form-button-text {

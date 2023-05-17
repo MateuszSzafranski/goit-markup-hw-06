@@ -188,7 +188,6 @@ input {
 .form-input:hover + .form-label-icon,
 .form-input:focus + .form-label-icon {
     fill: #2196f3;
-    
 }
 
 .label-head-text {
@@ -257,6 +256,9 @@ textarea {
     display: inline-flex;
     margin-bottom: 10px;
     padding-left: 42px;
+    transition-property: color, background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-label-icon {
@@ -265,6 +267,9 @@ textarea {
     height: 18px;
     left: 10px;
     top: 30px;
+    transition-property: color, background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-textarea {

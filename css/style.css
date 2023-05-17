@@ -268,6 +268,7 @@ textarea {
     height: 18px;
     left: 10px;
     top: 30px;
+    margin-top: 4px;
     transition-property: border-color,fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
